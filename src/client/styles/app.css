@@ -1,8 +1,47 @@
 .main-container {
-    font-family: Open Sans, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     margin-left: 20px;
 }
 
+.side-panel {
+    left: 0;
+    /* vertical-align:  */
+}
+
+.main-container h2 {
+    margin-top: 15px;
+    color: #e53345;
+}
+
 .bot-container {
-    margin: 10px 0 0 10px;
+    height: 38px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.bot-container-open {
+    height: 600px;
+}
+
+.bot-titlebar {
+    height: 38px;
+    width: 100%;
+    position: fixed;
+    cursor: pointer;
+}
+
+.bot-frame {
+    width: 400px;
+    height: 600px;
+}
+
+.component-title {
+    font-weight: bold;
+    color: #666;
+}
+
+.component-desc {
+
 }
